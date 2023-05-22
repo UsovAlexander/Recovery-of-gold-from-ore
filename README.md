@@ -11,6 +11,6 @@ To solve the problem, we will introduce a new quality metric — sMAPE (Symmetri
 
 $$sMAPE = \frac{1}{N}\sum_{i=1}^{N} \frac{|y_i - \bar{y_i}|}{|y_i + \bar{y_i}| / 2}$$
 
-\\(y_i\\)-the value of the target attribute for the object with the ordinal number i in the sample on which the quality is measured.  
-\\(\bar{y_i}\\)-the prediction value for an object with the ordinal number i, for example, in a test sample.  
-\\(N\\)-the number of objects in the sample.
+$y_i$ -the value of the target attribute for the object with the ordinal number i in the sample on which the quality is measured.  
+$\bar{y_i}$ -the prediction value for an object with the ordinal number i, for example, in a test sample.  
+$N$ -the number of objects in the sample.
